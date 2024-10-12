@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label{
+    border: 2px solid black;
+    width: 400px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+header, h1{
+    text-align: center;
+    margin: -4px;
+    letter-spacing: 0.3px;
+}
+
+.header{
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 4px 3px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.large{
+    height: 10px;
+}
+
+.large, .medium{
+    background-color: black;
+    border: 0;
+}
+
+.medium{
+    height: 5px;
+}
+
+.price-update{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-update, h2{
+    margin: 0;
+}
+
+.price-update p{
+    text-align: center;
+    justify-content: center;
+}
+
+.left-container, p{
+    margin: -3px -2px;
+    font: 2em;
+    font-weight: 700;
+}
+
+.price p{
+    margin: 10px 5px;
+    font-weight: 800;
+}
+
+.div{
+    padding: 5px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin: -2px;
+}
+
+.ton p{
+    margin: 10px 5px;
+    font-weight: 800;
+}
+
+.gasfee-price p{
+    margin: 10px 5px;
+    font-weight: 800;
+}
+
+.note{
+    margin: 10px 0;
+}
+
+.note p{
+    font-style: italic;
+}
