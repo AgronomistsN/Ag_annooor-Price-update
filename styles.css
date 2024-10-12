@@ -12,7 +12,7 @@ body{
 
 .label{
     border: 2px solid black;
-    width: 400px;
+    width: 270px;
     margin: 20px auto;
     padding: 0 7px;
 }
@@ -112,4 +112,5 @@ h3{
 
 .note p{
     font-style: italic;
+    justify-content: center;
 }
